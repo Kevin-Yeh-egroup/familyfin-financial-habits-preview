@@ -1,0 +1,35 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# JavaScript dependencies
+node_modules/
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+
+# Local provider metadata
+.vercel/
+
+# Generated or task-local outputs
+outputs/
+publish-ready/
+tests/artifacts/
+coverage/
+test-results/
+playwright-report/
+*.tmp
+assets/modes/
+ivy-agent-candidate/
+review-brief-*.md
+partner-guide.html
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
